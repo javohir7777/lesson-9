@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  font-family: sans-serif;
+  scroll-behavior: smooth;
+}
+
+nav {
+  text-align: center;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
+  padding: 20px 0;
+  position: sticky;
+  background-color: #fff;
+  width: 100%;
+  top: 0;
+}
+a {
+  text-decoration: none;
+  color: black;
+  margin-left: 20px;
+}
+
+#about {
+  padding: 70px;
+  background-color: #c9ea3b;
+}
+#portfolio {
+  padding: 70px;
+  background-color: #9bd873;
+}
+#services {
+  padding: 70px;
+  background-color: #6cb48e;
+}
